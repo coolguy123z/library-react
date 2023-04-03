@@ -19,7 +19,7 @@ const Book = ( {book}) => {
                 setImg(image)    
                 }
             }, 400);
-            
+            // 1
         }
         return () => {
             mountedEffect.current = false;
